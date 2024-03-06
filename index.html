@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
+
   <nav id="desktop-nav">
     <div class="logo">Tomas Panagopulos</div>
     <div>
@@ -35,6 +36,7 @@
       </div>
     </div>
   </nav>
+  
   <section id="profile">
     <div  class="section__pic-container">
       <img src="./assets/profilePicT.png" alt="Tomas Panagopulos profile picture">
@@ -42,9 +44,83 @@
     <div class="section__text">
       <p class="section__text__p1">Hello, I'm</p>
       <h1 class="title">Tomas Panagopulos</h1>
-      <p class="section__text__p2">Frontend Dev</p>
+      <p class="section__text__p2">Frontend Developer with a touch of backend</p>
       <div class="btn-container">
-        <button class="btn btn-color-2" onclick="window.open('./assets/re')"></button>
+        <button class="btn btn-color-2" 
+        onclick="window.open('./assets/Tomas-Panagopulos-CV.pdf')">
+          Download CV</button>
+        <button class="btn btn-color-1" 
+        onclick="location.href='./#contact'">
+          Contact Info</button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="My Linkedin" 
+        class="icon" 
+        onclick="location.href='https://www.linkedin.com/in/tomas-panagopulos-5a26742a0/'">
+        <img src="./assets/github.png" alt="My GitHub"
+         class="icon" 
+         onclick="location.href='https://github.com/Panagopulos'">
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <p class="section__text__p1">Get to Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img 
+            src="./assets/about-pic.png"
+            alt="profile picture"
+            class="about-pic"
+            />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img 
+              src="./assets/experience.png" 
+              alt="Experience icon" 
+              class="icon"
+              />
+              <h3>Experience</h3>
+              <p>6 months <br />Frontedn Development <br />+ backend</p> 
+          </div>
+          <div class="details-container">
+            <img 
+              src="./assets/education.png" 
+              alt="education icon" 
+              class="icon"
+              />
+              <h3>Education</h3>
+              <p>High School diploma <br />Operation technician</p> 
+          </div>
+        </div>
+        <div class="text-container">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, quaerat, corrupti impedit molestiae quasi neque harum minima tenetur quam magnam ipsum, soluta quae fugit nemo? Impedit, eum esse voluptatibus vero minima ea quidem maiores alias quasi porro aut soluta labore sunt ad molestias doloribus ratione neque placeat sed nobis. Officia.</p>
+        </div>
+      </div>
+    </div>
+            <img 
+              src="./assets/arrow.png" 
+              alt="Arrow icon" 
+              class="icon arrow"
+              onclick="location.href='./#experience'"
+            />
+  </section>
+  <section id="experience">
+    <p class="section_text_p1">Explote My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-containers">
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="">
+            </article>
+          </div>
+        </div>
       </div>
     </div>
   </section>
