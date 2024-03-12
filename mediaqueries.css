@@ -47,7 +47,7 @@
 @media screen and (max-width: 600px) {
   #contact,
   footer {
-    height: 40vh;
+    height: vh;
   }
   #profile {
     height: 83vh;
@@ -91,5 +91,13 @@
     height: 46vw;
     justify-content: center;
   }
-  .section__text__p2
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
 }
