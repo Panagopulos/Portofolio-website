@@ -339,6 +339,7 @@ section {
   justify-content: space-around;
 }
 
+
 .article {
   display: flex;
   width: 10rem;
@@ -348,6 +349,25 @@ section {
 
 .article-icon{
     cursor: default;
+}
+
+.soft-skills-container {
+  padding: 1.5rem;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+  width: 50%;
+  margin-left: 360px;
+}
+
+.article-soft-container{
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 /* PROJECTS SECTION */
