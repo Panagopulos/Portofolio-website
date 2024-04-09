@@ -45,10 +45,13 @@
       <p class="section__text__p1">Hello, I'm</p>
       <h1 class="title">Tomas Panagopulos</h1>
       <p class="section__text__p2">Frontend Developer with a touch of backend</p>
-      <div class="btn-container">
-        <button class="btn btn-color-2" 
-        onclick="window.open('./assets/Tomas-Panagopulos-CV.pdf')">
+      <div class="btn-container" >
+        <button class="btn btn-color-2 main-button js-button-cv">
           Download CV</button>
+          <div class="options-container js-options-container">
+          <button class="btn option-button btn-color-2" onclick="window.open('./assets/TP-CV-EN.pdf')">English</button>
+          <button class="btn option-button btn-color-2" onclick="window.open('./assets/TP-CV.pdf')">Czech</button>
+          </div>
         <button class="btn btn-color-1" 
         onclick="location.href='./#contact'">
           Contact Info</button>
@@ -84,7 +87,7 @@
               class="icon"
               />
               <h3>Experience</h3>
-              <p>6+ months <br />Frontend Development <br />+ backend</p> 
+              <p>6+ months (Certified) <br />Frontend Development <br />+ backend</p> 
           </div>
           <div class="details-container">
             <img 
@@ -97,13 +100,14 @@
           </div>
         </div>
         <div class="text-container">
-          <p>Greetings! I'm Tomas Panagopulos, a dedicated software engineer fueled by a passion for crafting innovative solutions. My journey began with a rigorous 4-month bootcamp where I immersed myself in the fundamentals of programming.<br><br>
+          <p>Greetings! I'm Tomas Panagopulos, a dedicated software engineer with a passion for crafting innovative solutions. My journey into the world of software development began with a 4-month bootcamp, where I immersed myself in the fundamentals of programming.<br><br>
 
-            During this intensive program, I gained expertise in Java, JavaScript, HTML, CSS, and MySQL, earning certification in each. Post-bootcamp, I delved deeper into React.js, harnessing its power to create dynamic and interactive user interfaces.<br><br>
-            
-            Equipped with a strong foundation in version control, particularly Git, I've embraced collaboration and project management with confidence. On my GitHub profile, you'll discover a diverse portfolio showcasing my progression from small-scale experiments to full-fledged applications.<br><br>
-            
-            I thrive on challenges and am continually seeking opportunities to expand my skills and make meaningful contributions in the realm of software engineering.<br><br></p>
+          During this intensive program, I focused on mastering <strong><a onclick="window.open('./assets/Certifikat-java.pdf')">Java</a></strong>, <strong><a onclick="window.open('./assets/Certifikat-javascript.pdf')">JavaScript</strong>,<strong><a onclick="window.open('./assets/Certifikat-HTML.pdf')"> HTML</a></strong>, CSS, and MySQL, and I'm proud to say that I earned certification in each of these areas. This <a onclick="window.open('./assets/Motiv.pdf')">certification</a> has served as a solid foundation for my ongoing learning and growth in the field.<br><br>
+
+          Since completing the bootcamp, I've been delving deeper into React.js, exploring its capabilities in creating dynamic and interactive user interfaces. Additionally, I've honed my skills in version control, particularly Git, enabling me to collaborate effectively on projects and manage them with confidence.<br><br>
+
+          You can explore my GitHub profile to see a variety of projects, ranging from small-scale experiments to full-fledged applications. I thrive on challenges and am constantly seeking opportunities to expand my skills and contribute meaningfully to the world of software engineering.<br><br> </p>
+
         </div>
       </div>
     </div>
@@ -210,47 +214,6 @@
           </div>
         </div>
       </div>
-      <div class="soft-skills-container">
-        <h2 class="experience-sub-title">Soft Skills</h2>
-        <div class="article-soft-container">
-          <article>
-            <img src="./assets/checkmark.png"
-                 alt="Experience icon"
-                 class="icon"
-                 />
-                 <div>
-                  <h3>Adaptability</h3>
-                 </div>
-          </article>
-          <article>
-            <img src="./assets/checkmark.png"
-                 alt="Experience icon"
-                 class="icon"
-                 />
-                 <div>
-                  <h3>Willingness to learn</h3>
-                 </div>
-          </article>
-          <article>
-            <img src="./assets/checkmark.png"
-                 alt="Experience icon"
-                 class="icon"
-                 />
-                 <div>
-                  <h3>Ability to work in team</h3>
-                 </div>
-          </article>
-          <article>
-            <img src="./assets/checkmark.png"
-                 alt="Experience icon"
-                 class="icon"
-                 />
-                 <div>
-                  <h3>Time flexibility</h3>
-                 </div>
-          </article>
-        </div>
-      </div>
     </div>
     <img 
               src="./assets/arrow.png" 
@@ -292,6 +255,9 @@
           <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Panagopulos/Rock-Paper-Scissors-WebGame'">
           GitHub
           </button> 
+          <button class="btn btn-color-2 project-btn" onclick="window.open('https://joyful-blini-350d5d.netlify.app/', '_blank')">
+          Live Demo
+          </button> 
         </div>
       </div>
       <div class="details-container color-container">
@@ -307,7 +273,11 @@
           <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Panagopulos/react-TodoList-app'">
           GitHub
           </button> 
-        </div>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn" onclick="window.open('https://storied-moxie-23d004.netlify.app/', '_blank')">
+          Live Demo
+          </button> 
+      </div>
       </div>
     </div>
     </div>
