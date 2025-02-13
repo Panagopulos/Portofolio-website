@@ -100,4 +100,10 @@
   .text-container {
     text-align: justify;
   }
+
+  #about {
+    margin-top: 35px;
+  }
+
+  
 }
